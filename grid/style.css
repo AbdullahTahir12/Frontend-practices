@@ -88,3 +88,15 @@ body {
     grid-column: span 3;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    width: 75%;
+    padding-inline: 12px;
+    grid-auto-rows: 320px;
+  }
+  .box {
+    grid-row: span 1;
+    grid-column: span 3;
+  }
+}
